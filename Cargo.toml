@@ -33,12 +33,9 @@ parallel = ["dep:rayon"]
 simd = []
 
 [dependencies]
-image = { version = "0.24", default-features = false, features = ["jpeg", "png"] }
+image = { version = "0.25", default-features = false, features = ["jpeg", "png"] }
 
-rayon = { version = "1.8", optional = true }
-
-[dev-dependencies]
-criterion = "0.5"
+rayon = { version = "1.11" }
 
 [profile.release]
 lto = true
