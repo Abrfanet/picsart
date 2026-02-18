@@ -1,17 +1,17 @@
 [package]
-name = "tough_image"
-version = "0.1.0"
-edition = "2021"
-license = "MIT OR Apache-2.0"
+name = "picsart"
+version = "0.0.1"
+edition = "rc1"
+license = "WTFPL OR Apache-2.0"
 description = "High-performance pure Rust image merge and optimization library"
-repository = "https://github.com/yourname/tough_image"
-homepage = "https://github.com/yourname/tough_image"
+repository = "https://github.com/abrfanet/picsart"
+homepage = "https://github.com/abrfanet/picsart"
 documentation = "https://docs.rs/tough_image"
 readme = "README.md"
 keywords = ["image", "merge", "compression", "optimization", "pure-rust"]
 categories = ["multimedia::images"]
-authors = ["Your Name <you@example.com>"]
-rust-version = "1.75"
+authors = ["Mohammad Mahmoodi <mm580486@gmail.com>"]
+rust-version = "1.93.0"
 exclude = [
     "examples/*",
     "tests/assets/*",
