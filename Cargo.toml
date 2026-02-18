@@ -1,7 +1,6 @@
 [package]
 name = "picsart"
 version = "0.0.1"
-edition = "rc1"
 license = "WTFPL OR Apache-2.0"
 description = "High-performance pure Rust image merge and optimization library"
 repository = "https://github.com/abrfanet/picsart"
