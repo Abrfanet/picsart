@@ -1,0 +1,48 @@
+[package]
+name = "tough_image"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "High-performance pure Rust image merge and optimization library"
+repository = "https://github.com/yourname/tough_image"
+homepage = "https://github.com/yourname/tough_image"
+documentation = "https://docs.rs/tough_image"
+readme = "README.md"
+keywords = ["image", "merge", "compression", "optimization", "pure-rust"]
+categories = ["multimedia::images"]
+authors = ["Your Name <you@example.com>"]
+rust-version = "1.75"
+exclude = [
+    "examples/*",
+    "tests/assets/*",
+    ".github/*"
+]
+
+[lib]
+name = "tough_image"
+path = "src/lib.rs"
+crate-type = ["rlib"]
+
+[features]
+default = ["parallel"]
+
+# Enable rayon-based parallel processing
+parallel = ["dep:rayon"]
+
+# Future-proof feature example
+simd = []
+
+[dependencies]
+image = { version = "0.24", default-features = false, features = ["jpeg", "png"] }
+
+rayon = { version = "1.8", optional = true }
+
+[dev-dependencies]
+criterion = "0.5"
+
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+opt-level = 3
