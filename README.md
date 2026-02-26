@@ -21,3 +21,10 @@ Supported features are:
 ### Picsart Guide
 ```
     use picsart::PicsArt;
+```
+
+### Output Files
+* PNG: Supports transparency (alpha channel) also reduce additionals meta and overlaps on PNG
+* WEBP: Slight quality, General web images and modern formats
+* AVIF: Maximum compression with good quality (Ultra encode method like 256 codec)
+
