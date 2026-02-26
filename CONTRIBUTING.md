@@ -1,6 +1,6 @@
-# Contributing to killport
+# Contributing to Picsart
 
-Thank you for considering a contribution to the killport project! We appreciate your help in making our project better. This document will guide you through the process of contributing to the killport project.
+Thank you for considering a contribution to the Picsart project! We appreciate your help in making our project better. This document will guide you through the process of contributing to the Picsart project.
 
 ## Code of Conduct
 
@@ -8,7 +8,7 @@ Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a wel
 
 ## Reporting Bugs or Requesting Features
 
-- Before submitting a bug report or feature request, please check the existing [issues](https://github.com/jkfran/killport/issues) to avoid duplicates.
+- Before submitting a bug report or feature request, please check the existing [issues](https://github.com/abrfanet/picsart/issues) to avoid duplicates.
 - If you find an existing issue that matches your problem or request, feel free to comment on it or add a reaction.
 - If there is no existing issue, please create a new one with a clear description and steps to reproduce the bug or a detailed explanation of the requested feature.
 
