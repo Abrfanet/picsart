@@ -23,9 +23,14 @@ Supported features are:
     use picsart::PicsArt;
 ```
 
+
+## CLI
+The library provides a powerful and lightweight Command Line Interface (CLI) designed for high-performance image optimization. It enables batch processing.
+
+
 ### Output Files
 * PNG: Supports transparency (alpha channel) also reduce additionals meta and overlaps on PNG
 * WEBP: Slight quality, General web images and modern formats
-* AVIF: Maximum compression with good quality (Ultra encode method like 256 codec)
+* AVIF: Maximum compression with good quality (Ultra encode method like 264 codec)
 
 ### Object Storage Integrations (AWS, DirectAPI or etc)
