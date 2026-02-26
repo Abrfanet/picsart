@@ -28,3 +28,4 @@ Supported features are:
 * WEBP: Slight quality, General web images and modern formats
 * AVIF: Maximum compression with good quality (Ultra encode method like 256 codec)
 
+### Object Storage Integrations (AWS, DirectAPI or etc)
